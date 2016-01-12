@@ -7,10 +7,24 @@
 html, body {
   min-width: 320px; }
 
+body {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 12px;
+  background-color: #222; }
+
+.font-lg-1 {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 15px; }
+
+.font-lg-2 {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 14px; }
+
 #header {
   position: relative;
   height: 45px;
-  border-bottom: 2px solid #cc071e; }
+  border-bottom: 2px solid #cc071e;
+  background-color: #fff; }
   #header > .logo {
     padding-top: 4px;
     margin: 0 0 0 9px;
@@ -34,5 +48,31 @@ html, body {
     right: 0;
     color: #fff;
     background-color: #cc071e; }
+
+#footer {
+  background-color: #222; }
+  #footer > nav {
+    height: 35px;
+    border-bottom: 1px solid #000;
+    line-height: 34px; }
+    #footer > nav a {
+      display: block;
+      color: #fff;
+      text-align: center; }
+  #footer > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #434343;
+    color: #999; }
+    #footer > div address {
+      display: inline;
+      margin-bottom: 0;
+      letter-spacing: -1px; }
+    #footer > div dl {
+      display: inline;
+      margin-bottom: 0; }
+      #footer > div dl dt, #footer > div dl dd {
+        font-weight: normal;
+        display: inline; }
 
 /*# sourceMappingURL=default.css.map */

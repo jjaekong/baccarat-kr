@@ -9,11 +9,25 @@ $main-color: #cc071e;
 html, body {
     min-width: 320px;
 }
+body {
+    font-family: 'Nanum Gothic Light', sans-serif;
+    font-size: 12px;
+    background-color: #222;
+}
+.font-lg-1 {
+    font-family: 'Nanum Gothic Light', sans-serif;
+    font-size: 15px;
+}
+.font-lg-2 {
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 14px;
+}
 
 #header {
     position: relative;
     height: 45px;
     border-bottom: 2px solid $main-color;
+    background-color: #fff;
     > .logo {
         padding-top: 4px;
         margin: 0 0 0 9px;
@@ -41,5 +55,38 @@ html, body {
         right: 0;
         color: #fff;
         background-color: $main-color;
+    }
+}
+
+#footer {
+    background-color: #222;
+    > nav {
+        height: 35px;
+        border-bottom: 1px solid #000;
+        line-height: 34px;
+        a {
+            display: block;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    > div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid #434343;
+        color: #999;
+        address {
+            display: inline;
+            margin-bottom: 0;
+            letter-spacing: -1px;
+        }
+        dl {
+            display: inline;
+            margin-bottom: 0;
+            dt, dd {
+                font-weight: normal;
+                display: inline;
+            }
+        }
     }
 }
