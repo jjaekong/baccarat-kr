@@ -43,54 +43,64 @@ ul, ol {
 
 #header {
     position: relative;
-    height: 45px;
-    border-bottom: 2px solid $main-color;
-    .logo {
-        padding-top: 4px;
-        margin: 0 0 0 9px;
-        width: 95px;
-        height: 40px;
-        img {
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-    }
-    .btn {
-        position: absolute;
-        top: 0;
-        width: 43px;
-        height: 43px;
-        border-radius: 0;
-    }
-    .btn-search {
-        right: 43px;
-        color: #333;
-        background-color: #fff;
-    }
-    .btn-menu {
-        right: 0;
-        color: #fff;
-        background-color: $main-color;
-    }
-    #menubar {
-        background-color: #fff;
-    }
-}
-
-#navbar {
-    .row {
-        > div {
-            padding-left: 0px;
-            padding-right: 0px;
-            a {
+    > header {
+        height: 45px;
+        border-bottom: 2px solid $main-color;
+        .logo {
+            padding-top: 4px;
+            margin: 0 0 0 9px;
+            width: 95px;
+            height: 40px;
+            img {
                 display: block;
-                text-align: center;
-                line-height: 35px;
-                color: #222;
-                letter-spacing: -1px;
+                width: 100%;
+                height: 100%;
             }
         }
+        .btn {
+            position: absolute;
+            top: 0;
+            width: 43px;
+            height: 43px;
+            border-radius: 0;
+        }
+        .btn-search {
+            right: 43px;
+            color: #333;
+            background-color: #fff;
+        }
+        .btn-menu {
+            right: 0;
+            color: #fff;
+            background-color: $main-color;
+        }
+    }
+    #quick {
+        border-bottom: 1px solid #ccc;
+        .row {
+            > div {
+                padding-left: 0px;
+                padding-right: 0px;
+                a {
+                    display: block;
+                    text-align: center;
+                    line-height: 35px;
+                    color: #222;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+    }
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ccc;
+        width: 100%;
+        height: 100%;
+        padding-top: 45px;
+        overflow-y: scroll;
+        z-index: 1;
     }
 }
 

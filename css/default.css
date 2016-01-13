@@ -38,44 +38,54 @@ ul, ol {
   background-color: #fff; }
 
 #header {
-  position: relative;
-  height: 45px;
-  border-bottom: 2px solid #cc071e; }
-  #header .logo {
-    padding-top: 4px;
-    margin: 0 0 0 9px;
-    width: 95px;
-    height: 40px; }
-    #header .logo img {
-      display: block;
-      width: 100%;
-      height: 100%; }
-  #header .btn {
-    position: absolute;
+  position: relative; }
+  #header > header {
+    height: 45px;
+    border-bottom: 2px solid #cc071e; }
+    #header > header .logo {
+      padding-top: 4px;
+      margin: 0 0 0 9px;
+      width: 95px;
+      height: 40px; }
+      #header > header .logo img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    #header > header .btn {
+      position: absolute;
+      top: 0;
+      width: 43px;
+      height: 43px;
+      border-radius: 0; }
+    #header > header .btn-search {
+      right: 43px;
+      color: #333;
+      background-color: #fff; }
+    #header > header .btn-menu {
+      right: 0;
+      color: #fff;
+      background-color: #cc071e; }
+  #header #quick {
+    border-bottom: 1px solid #ccc; }
+    #header #quick .row > div {
+      padding-left: 0px;
+      padding-right: 0px; }
+      #header #quick .row > div a {
+        display: block;
+        text-align: center;
+        line-height: 35px;
+        color: #222;
+        letter-spacing: -1px; }
+  #header #navbar {
+    position: fixed;
     top: 0;
-    width: 43px;
-    height: 43px;
-    border-radius: 0; }
-  #header .btn-search {
-    right: 43px;
-    color: #333;
-    background-color: #fff; }
-  #header .btn-menu {
-    right: 0;
-    color: #fff;
-    background-color: #cc071e; }
-  #header #menubar {
-    background-color: #fff; }
-
-#navbar .row > div {
-  padding-left: 0px;
-  padding-right: 0px; }
-  #navbar .row > div a {
-    display: block;
-    text-align: center;
-    line-height: 35px;
-    color: #222;
-    letter-spacing: -1px; }
+    left: 0;
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    overflow-y: scroll;
+    z-index: 1; }
 
 #footer {
   background-color: #222; }

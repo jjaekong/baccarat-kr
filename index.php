@@ -15,18 +15,30 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body class="navbar-opened">
     <div id="wrapper">
-        <header id="header">
-            <h1 class="logo"><a href="#"><img src="/images/logo.gif" alt="Baccarat"></a></h1>
-            <button type="button" class="btn btn-search" aria-label="검색">
-                <span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>
-            </button>
-            <button type="button" class="btn btn-menu" aria-label="메뉴">
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-            </button>
-            <div id="menubar">
-                <nav>
+        <nav id="header">
+            <header>
+                <h1 class="logo"><a href="#"><img src="/images/logo.gif" alt="Baccarat"></a></h1>
+                <button type="button" class="btn btn-search" aria-label="검색">
+                    <span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-menu" aria-label="메뉴">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+            </header>
+            <div id="quick" aria-hidden="true">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3"><a href="#">주얼리</a></div>
+                        <div class="col-xs-3"><a href="#">데코레이션</a></div>
+                        <div class="col-xs-3"><a href="#">바&amp;테이블웨어</a></div>
+                        <div class="col-xs-3"><a href="#">조명</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="navbar">
+                <nav class="member">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-3"><a href="#">로그인</a></div>
@@ -36,7 +48,7 @@
                         </div>
                     </div>
                 </nav>
-                <nav>
+                <nav class="fullmenu">
                     <ul>
                         <li>
                             <a href="#">주얼리</a>
@@ -121,17 +133,9 @@
                     </ul>
                 </nav>
             </div>
-        </header>
-        <nav id="navbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-3"><a href="#">주얼리</a></div>
-                    <div class="col-xs-3"><a href="#">데코레이션</a></div>
-                    <div class="col-xs-3"><a href="#">바&amp;테이블웨어</a></div>
-                    <div class="col-xs-3"><a href="#">조명</a></div>
-                </div>
-            </div>
         </nav>
+        <main id="content">
+        </main>
         <footer id="footer">
             <nav>
                 <div class="container">
