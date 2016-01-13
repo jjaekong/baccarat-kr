@@ -45,7 +45,7 @@ ul, ol {
     position: relative;
     height: 45px;
     border-bottom: 2px solid $main-color;
-    > .logo {
+    .logo {
         padding-top: 4px;
         margin: 0 0 0 9px;
         width: 95px;
@@ -56,26 +56,29 @@ ul, ol {
             height: 100%;
         }
     }
-    > .btn {
+    .btn {
         position: absolute;
         top: 0;
         width: 43px;
         height: 43px;
         border-radius: 0;
     }
-    > .btn-search {
+    .btn-search {
         right: 43px;
         color: #333;
         background-color: #fff;
     }
-    > .btn-menu {
+    .btn-menu {
         right: 0;
         color: #fff;
         background-color: $main-color;
     }
+    #menubar {
+        background-color: #fff;
+    }
 }
 
-#nav {
+#navbar {
     .row {
         > div {
             padding-left: 0px;

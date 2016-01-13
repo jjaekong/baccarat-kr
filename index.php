@@ -25,7 +25,7 @@
             <button type="button" class="btn btn-menu" aria-label="메뉴">
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
             </button>
-            <div id="menu">
+            <div id="menubar">
                 <nav>
                     <div class="container">
                         <div class="row">
@@ -122,7 +122,7 @@
                 </nav>
             </div>
         </header>
-        <nav id="nav">
+        <nav id="navbar">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-3"><a href="#">주얼리</a></div>
