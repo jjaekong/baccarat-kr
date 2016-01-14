@@ -8,18 +8,18 @@
 <link href="//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css" rel="stylesheet">
 <link href="//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css" rel="stylesheet">
 <link href="//cdn.jsdelivr.net/font-nanum/1.0/nanummyeongjo/nanummyeongjo.css" rel="stylesheet">
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/default.css" rel="stylesheet">
+<link href="/mobile/css/bootstrap.min.css" rel="stylesheet">
+<link href="/mobile/css/default.css" rel="stylesheet">
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body class="navbar-opened">
+<body>
     <div id="wrapper">
         <nav id="header">
             <header>
-                <h1 class="logo"><a href="#"><img src="/images/logo.gif" alt="Baccarat"></a></h1>
+                <h1 class="logo"><a href="#"><img src="/mobile/images/logo.gif" alt="Baccarat"></a></h1>
                 <button type="button" class="btn btn-search" aria-label="검색">
                     <span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>
                 </button>
@@ -38,17 +38,16 @@
                 </div>
             </div>
             <div id="navbar">
-                <nav class="member">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-3"><a href="#">로그인</a></div>
-                            <div class="col-xs-3"><a href="#">회원가입</a></div>
-                            <div class="col-xs-3"><a href="#">장바구니</a></div>
-                            <div class="col-xs-3"><a href="#">마이페이지</a></div>
-                        </div>
-                    </div>
-                </nav>
-                <nav class="fullmenu">
+                <div>
+                    <nav class="member">
+                        <ul>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#">마이페이지</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="full">
                     <ul>
                         <li>
                             <a href="#">주얼리</a>
@@ -127,14 +126,25 @@
                                 <li><a href="#">서브메1</a></li>
                                 <li><a href="#">서브메뉴3</a></li>
                                 <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
+                                <li><a href="#">서브메뉴5t55555555</a></li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
+                </div>
             </div>
         </nav>
         <main id="content">
+            111111111
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </main>
         <footer id="footer">
             <nav>
@@ -168,6 +178,7 @@
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/mobile/js/bootstrap.min.js"></script>
+    <script src="/mobile/js/common.js"></script>
 </body>
 </html>
