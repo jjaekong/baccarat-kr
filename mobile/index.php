@@ -15,7 +15,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body class="navbar-opened">
     <div id="wrapper">
         <nav id="header">
             <header>
@@ -41,96 +41,116 @@
                 <div>
                     <nav class="member">
                         <ul>
-                            <li><a href="#">로그인</a></li>
-                            <li><a href="#">회원가입</a></li>
-                            <li><a href="#">장바구니</a></li>
-                            <li><a href="#">마이페이지</a></li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true"><img src="/mobile/images/ico_lock.gif"></i>
+                                    <p>로그인</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true"><img src="/mobile/images/ico_doc.gif"></i>
+                                    <p>회원가입</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true"><img src="/mobile/images/ico_cart.gif"></i>
+                                    <p>장바구니</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i aria-hidden="true"><img src="/mobile/images/ico_user.gif"></i>
+                                    <p>마이페이지</p>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                     <nav class="full">
-                    <ul>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">주얼리</a>
-                            <ul>
-                                <li><a href="#">서브메뉴1</a></li>
-                                <li><a href="#">서브메1</a></li>
-                                <li><a href="#">서브메뉴3</a></li>
-                                <li><a href="#">서브메뉴4</a></li>
-                                <li><a href="#">서브메뉴5t55555555</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
+                        <ul>
+                            <li>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-minus"></span></a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">주얼리</a>
+                                <ul>
+                                    <li><a href="#">서브메뉴1</a></li>
+                                    <li><a href="#">서브메1</a></li>
+                                    <li><a href="#">서브메뉴3</a></li>
+                                    <li><a href="#">서브메뉴4</a></li>
+                                    <li><a href="#">서브메뉴5t55555555</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </nav>
