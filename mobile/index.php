@@ -15,13 +15,13 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body class="navbar-opened">
+<body>
     <div id="wrapper">
         <nav id="header">
             <header>
                 <h1 class="logo"><a href="#"><img src="/mobile/images/logo.gif" alt="Baccarat"></a></h1>
                 <button type="button" class="btn btn-search" aria-label="검색">
-                    <span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 </button>
                 <button type="button" class="btn btn-menu" aria-label="메뉴">
                     <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
@@ -70,7 +70,7 @@
                     <nav class="full">
                         <ul>
                             <li>
-                                <a href="#">주얼리 <span class="glyphicon glyphicon-minus"></span></a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></span></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -80,7 +80,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -90,7 +90,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -100,7 +100,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -110,7 +110,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -120,7 +120,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -130,7 +130,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
@@ -140,7 +140,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">주얼리</a>
+                                <a href="#">주얼리 <span class="glyphicon glyphicon-plus"></a>
                                 <ul>
                                     <li><a href="#">서브메뉴1</a></li>
                                     <li><a href="#">서브메1</a></li>
