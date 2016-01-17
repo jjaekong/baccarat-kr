@@ -1,0 +1,108 @@
+.font, .list .overview h2 {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 12px;
+  background-color: #222; }
+
+.font-lg-1, .list .summary h3, .list .list li .details h4, .list .list li .details p {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 15px; }
+
+.font-lg-2 {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 14px; }
+
+.font-sm, .list .list li .details small {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 10px; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.list .overview {
+  height: 160px;
+  background-image: url(/mobile/images/img_overview_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .list .overview h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #fff;
+    line-height: 18px;
+    background-color: transparent; }
+    .list .overview h2 > span {
+      opacity: .8; }
+.list .summary {
+  height: 40px;
+  line-height: 40px;
+  background-color: #c4071d; }
+  .list .summary h3 {
+    display: inline;
+    font-weight: bold;
+    color: #fff; }
+  .list .summary p {
+    display: inline;
+    color: #fff; }
+  .list .summary select {
+    padding: 0;
+    margin-top: 5px;
+    border-radius: 2px; }
+.list .filter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f0f0f0; }
+  .list .filter p {
+    margin-bottom: 5px; }
+    .list .filter p:nth-of-type(3) {
+      margin-bottom: 0; }
+  .list .filter select {
+    padding: 0 3px; }
+.list .list li {
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dfdfdf; }
+  .list .list li figure {
+    float: left; }
+    .list .list li figure img {
+      width: 95px;
+      height: 95px;
+      border: 1px solid #f0f0f0; }
+  .list .list li .details {
+    margin-left: 105px; }
+    .list .list li .details h4 {
+      margin: 0;
+      color: #111; }
+    .list .list li .details small {
+      color: #888; }
+    .list .list li .details p {
+      margin-bottom: 20px;
+      color: #111; }
+    .list .list li .details .btn-more {
+      font-family: 'Nanum Myeongjo', sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: italic;
+      color: #cd081f; }
+.list .list .loading {
+  padding: 15px 0;
+  margin: 0;
+  text-align: center; }
+  .list .list .loading img {
+    width: 36px;
+    height: 36px;
+    -webkit-animation: spin 2s infinite steps(12);
+    animation: spin 2s infinite steps(12); }
+
+/*# sourceMappingURL=jewelry.css.map */

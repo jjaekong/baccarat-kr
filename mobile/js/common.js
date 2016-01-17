@@ -1,7 +1,8 @@
 (function($) {
     
+    // 상단 메뉴 버튼
     $(document).on('click', '#header .btn-menu', function() {
-        if ( $('body').hasClass('navbar-opened') ) {
+        if ($('body').hasClass('navbar-opened')) {
             $('body').removeClass('navbar-opened');
             $(this).find('.glyphicon-remove').removeClass('glyphicon-remove').addClass('glyphicon glyphicon-menu-hamburger');
         } else {
@@ -10,6 +11,7 @@
         }
     });
     
+    // 메뉴 버튼 클릭 시
     $(document).on('click', '#navbar .full > ul > li > a', function() {
         var $menuItems = $('#navbar .full > ul > li');
         var $selectedItem = $(this).parent();

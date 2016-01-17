@@ -1,0 +1,129 @@
+@import 'common';
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.list {
+    .overview {
+        height: 160px;
+        background-image: url(/mobile/images/img_overview_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 0;
+            @extend .font;
+            color: #fff;
+            line-height: 18px;
+            background-color: transparent;
+            > span {
+                opacity: .8;
+            }
+        }
+    }
+    .summary {
+        height: 40px;
+        line-height: 40px;
+        background-color: #c4071d;
+        h3 {
+            display: inline;
+            @extend .font-lg-1;
+            font-weight: bold;
+            color: #fff;
+        }
+        p {
+            display: inline;
+            color: #fff;
+        }
+        select {
+            padding: 0;
+            margin-top: 5px;
+            border-radius: 2px;
+        }
+    }
+    .filter {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #f0f0f0;
+        p {
+            margin-bottom: 5px;
+            &:nth-of-type(3) {
+                margin-bottom: 0;
+            }
+        }
+        select {
+            padding: 0 3px;
+        }
+    }
+    .list {
+        li {
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #dfdfdf;
+            figure {
+                float: left;
+                img {
+                    width: 95px;
+                    height: 95px;
+                    border: 1px solid #f0f0f0;
+                }
+            }
+            .details {
+                margin-left: 105px;
+                h4 {
+                    margin: 0;
+                    @extend .font-lg-1;
+                    color: #111;
+                }
+                small {
+                    @extend .font-sm;
+                    color: #888;
+                }
+                p {
+                    margin-bottom: 20px;
+                    @extend .font-lg-1;
+                    color: #111;
+                }
+                .btn-more {
+                    font-family: 'Nanum Myeongjo', sans-serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-style: italic;
+                    color: #cd081f;
+                }
+            }
+        }
+        .loading {
+            padding: 15px 0;
+            margin: 0;
+            text-align: center;
+            img {
+                width: 36px;
+                height: 36px;
+                -webkit-animation: spin 2s infinite steps(12);
+                animation: spin 2s infinite steps(12);
+            }
+        }
+    }
+}
