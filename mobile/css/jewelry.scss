@@ -172,11 +172,12 @@
             font-size: 13px;
         }
     }
-    .details {
+    .summary {
         position: relative;
         padding: 10px 5px;
         border-top: 1px solid #111;
         border-bottom: 1px solid #111;
+        margin-bottom: 20px;
         dl {
             margin-bottom: 0;
             font-weight: bold;
@@ -200,6 +201,75 @@
             margin-top: 10px;
             margin-bottom: 0;
             font-family: 'Nanum Myeongjo', sans-serif;
+        }
+    }
+    .options {
+        .form-group {
+            margin-left: -10px;
+            margin-right: -10px;
+            margin-bottom: 5px;
+            border-radius: 2px;
+            > div {
+            }
+            .control-label {
+                margin-bottom: 0;
+                line-height: 30px;
+            }
+            .form-control {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        .btn-group {
+            width: 100%;
+            margin-top: 20px;
+            .btn {
+                text-align: left;
+                font-family: 'Nanum Myeongjo', sans-serif;
+                font-style: italic;
+                border-radius: 0;
+                color: #fff;
+                .glyphicon {
+                    float: right;
+                    margin-top: 2px;
+                }
+                &[type="submit"] {
+                    background-color: #434343;
+                    border-color: #434343;
+                }
+            }
+        }
+        .link-group {
+            margin-top: 10px;
+            a {
+                font-family: 'Nanum Myeongjo', sans-serif;
+                font-style: italic;
+                color: #111;
+            }
+        }
+    }
+    .notes {
+        height: 30px;
+        margin-top: 20px;
+        background-color: $main-color;
+        .sns {
+            padding-top: 5px;
+            margin-bottom: 0;
+            a {
+                float: left;
+                margin-right: 5px;
+            }
+            img {
+                width: 20px;
+            }
+        }
+        .row {
+            > div {
+                > a {
+                    line-height: 30px;
+                    color: #fff;
+                }
+            }
         }
     }
 }

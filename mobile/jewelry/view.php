@@ -38,7 +38,7 @@
                     <h2>LOUXOR 룩소르 실크 트윌 스카프</h2>
                     <p>실크 트윌 사각 스카프 140x140 cm</p>
                 </div>
-                <div class="details">
+                <div class="summary">
                     <dl>
                         <dt>가격</dt>
                         <dd>123,456원</dd>
@@ -50,8 +50,63 @@
                     </p>
                 </div>
                 <div class="options">
-                    <form action="#" method="post">
+                    <form action="#" method="post" class="form-horizontal">
+                        <div class="form-group form-group-sm">
+                            <label class="col-xs-3 control-label" for="color">색상</label>
+                            <div class="col-xs-9">
+                                <select class="form-control input-sm" id="color">
+                                    <option value="#">색상</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-xs-3 control-label" for="size">사이즈</label>
+                            <div class="col-xs-9">
+                                <select class="form-control input-sm" id="size">
+                                    <option value="#">사이즈</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label class="col-xs-3 control-label" for="quantity">수량</label>
+                            <div class="col-xs-9">
+                                <select class="form-control input-sm" id="quantity">
+                                    <option value="#">수량</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-default btn-block btn-sm">쇼핑리스트에 담기 <span class="glyphicon glyphicon-menu-right
+"></span></button>
+                        </div>
                     </form>
+                    <div class="link-group">
+                        <div class="row">
+                            <div class="col-xs-6"><a href="#">위시 리스트에 담기</a></div>
+                            <div class="col-xs-6"><a href="#">선물 리스트에 담기</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="notes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <p class="sns">
+                                <a href="#"><img src="/mobile/images/ico_twitter.gif" alt="트위터"></a>
+                                <a href="#"><img src="/mobile/images/ico_facebook.gif" alt="페이스북"></a>
+                                <a href="#"><img src="/mobile/images/ico_pinterest.gif" alt="핀터레스트"></a>
+                            </p>
+                        </div>
+                        <div class="col-xs-4"><a href="#">사이즈 정보</a></div>
+                        <div class="col-xs-4"><a href="#">배송 및 교환</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="collection">
+                </div>
+                <div class="">
                 </div>
             </div>
         </main>

@@ -1,3 +1,18 @@
+.font {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 12px;
+  background-color: #222; }
 
+.font-lg-1 {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 15px; }
+
+.font-lg-2 {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 14px; }
+
+.font-sm {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 10px; }
 
 /*# sourceMappingURL=common.css.map */
