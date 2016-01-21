@@ -105,4 +105,55 @@
     -webkit-animation: spin 2s infinite steps(12);
     animation: spin 2s infinite steps(12); }
 
+.view .path .breadcrumb {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+  background-color: transparent; }
+  .view .path .breadcrumb > li {
+    color: #111; }
+    .view .path .breadcrumb > li > a {
+      color: #111; }
+    .view .path .breadcrumb > li::before {
+      content: "\003e";
+      color: #111; }
+    .view .path .breadcrumb > li:nth-of-type(1)::before {
+      content: ""; }
+.view .carousel .item img {
+  width: 100%; }
+.view .carousel .carousel-control {
+  background-image: none; }
+.view .title h2 {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -1px; }
+.view .title p {
+  margin-bottom: 20px;
+  font-size: 13px; }
+.view .details {
+  position: relative;
+  padding: 10px 5px;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111; }
+  .view .details dl {
+    margin-bottom: 0;
+    font-weight: bold; }
+    .view .details dl dt {
+      display: inline-block;
+      width: 70px; }
+    .view .details dl dd {
+      display: inline-block; }
+  .view .details span {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    padding: 0 5px;
+    background-color: #e1e1e1;
+    color: #666; }
+  .view .details p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Nanum Myeongjo', sans-serif; }
+
 /*# sourceMappingURL=jewelry.css.map */

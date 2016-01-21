@@ -26,6 +26,8 @@
                 .find('.glyphicon-plus').removeClass('glyphicon-plus').addClass('glyphicon-minus');
         }
         return false;
-    }); 
+    });
+    
+    $('.carousel').carousel('cycle');
     
 })(jQuery);
