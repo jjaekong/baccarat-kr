@@ -158,6 +158,25 @@
         }
         .carousel-control {
             background-image: none;
+            text-shadow: none;
+            .glyphicon-menu-left,
+            .glyphicon-menu-right {
+                position: absolute;
+                top: 50%;
+                z-index: 5;
+                display: inline-block;
+                margin-top: -10px;
+            }
+            .glyphicon-menu-right {
+                right: 50%;
+                margin-right: -10px;
+                color: #999;
+            }
+            .glyphicon-menu-left {
+                left: 50%;
+                margin-left: -10px;
+                color: #999;
+            }
         }
     }
     .title {
@@ -212,6 +231,7 @@
             > div {
             }
             .control-label {
+                padding-top: 0;
                 margin-bottom: 0;
                 line-height: 30px;
             }
@@ -270,6 +290,113 @@
                     color: #fff;
                 }
             }
+        }
+        .modal {
+            .modal-dialog {
+                border-top: 3px solid $main-color;
+            }
+            .modal-content {
+                border: {
+                    top: 0;
+                    left: 1px solid #cdcdcd;
+                    right: 1px solid #cdcdcd;
+                    bottom: 1px solid #cdcdcd;
+                }
+                border-radius: 0;
+            }
+            .modal-header {
+                padding-top: 7px;
+                padding-bottom: 5px;
+                .close {
+                    margin-top: -5px;
+                }
+            }
+            .modal-title {
+                color: $main-color;
+                font-size: 14px;
+            }
+        }
+    }
+    .collection {
+        margin-top: 20px;
+        h4 {
+            display: inline-block;
+            position: relative;
+            padding-top: 10px;
+            margin: 0;
+            color: $main-color;
+            font-size: 14px;
+            font-weight: bold;
+            span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 4px;
+                background-color: $main-color;
+            }
+        }
+        .glyphicon-menu-left {
+            left: 0 !important;
+            margin-left: 0 !important;
+        }
+        .glyphicon-menu-right {
+            right: 0 !important;
+            margin-right: 0 !important;
+        }
+        .item {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .related-item {
+            display: block;
+            text-align: center;
+            color: #111;
+            figure {
+                img {
+                    margin: 0 auto;
+                }
+            }
+            h5 {
+                margin-bottom: 0;
+                color: #111;
+                font-size: 12px;
+            }
+            small {
+                color: #888;
+            }
+        }
+    }
+    .designer {
+        margin-top: 10px;
+        .figure {
+            padding: 10px;
+            border: 1px solid #ccc;
+            figure {
+                position: relative;
+                img {
+                    margin: 0 auto;
+                }
+                figcaption {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 100%;
+                    height: 30px;
+                    line-height: 30px;
+                    margin-top: -15px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: rgba($main-color, .8);
+                }
+            }
+        }
+        .details {
+            padding-top: 5px;
+            border-top: 1px solid $main-color;
+            margin-top: 15px;
+            text-align: center;
+            @extend .font-mj;
         }
     }
 }

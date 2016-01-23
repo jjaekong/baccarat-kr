@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.font-gl {
+  font-family: 'Nanum Gothic Light', sans-serif; }
+
+.font-mj {
+  font-family: 'Nanum Myeongjo', sans-serif; }
+
 .font, #footer > nav a {
   font-family: 'Nanum Gothic Light', sans-serif;
   font-size: 12px;

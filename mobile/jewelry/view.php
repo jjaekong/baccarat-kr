@@ -13,7 +13,7 @@
                         <li class="active">스카프</li>
                     </ol>
                 </div>
-                <div class="carousel slide" data-ride="carousel">
+                <div id="jewelry-figures" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img src="/mobile/images/dummy/img_jewelry_3.jpg" alt="">
@@ -25,12 +25,12 @@
                             <img src="/mobile/images/dummy/img_jewelry_2.jpg" alt="">
                         </div>
                     </div>
-                    <a class="left carousel-control" href="#" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <a class="left carousel-control" href="#jewelry-figures" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
                         <span class="sr-only">이전</span>
                     </a>
-                    <a class="right carousel-control" href="#" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <a class="right carousel-control" href="#jewelry-figures" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                         <span class="sr-only">다음</span>
                     </a>
                 </div>
@@ -98,15 +98,140 @@
                                 <a href="#"><img src="/mobile/images/ico_pinterest.gif" alt="핀터레스트"></a>
                             </p>
                         </div>
-                        <div class="col-xs-4"><a href="#">사이즈 정보</a></div>
-                        <div class="col-xs-4"><a href="#">배송 및 교환</a></div>
+                        <div class="col-xs-4"><a href="#" data-toggle="modal" data-target="#size-info">사이즈 정보</a></div>
+                        <div class="col-xs-4"><a href="#" data-toggle="modal" data-target="#delivery-info">배송 및 교환</a></div>
+                    </div>
+                </div>
+                <div id="size-info" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">사이즈 정보</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>사이즈 정보에 관련된 페이지 입니다.</p>
+                                <p>사이즈 정보에 관련된 페이지 입니다.</p>
+                                <p>사이즈 정보에 관련된 페이지 입니다.</p>
+                                <p>사이즈 정보에 관련된 페이지 입니다.</p>
+                                <p>사이즈 정보에 관련된 페이지 입니다.</p>
+                                <p>사이즈 정보에 관련된 페이지 입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="delivery-info" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">배송 및 교환</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>배송 및 교환에 관련된 정보입니다. 배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.배송 및 교환에 관련된 정보입니다.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="collection">
+                    <h4>같은 컬렉션 제품<span></span></h4>
+                    <div id="related-figures" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <a class="related-item">
+                                            <figure>
+                                                <img class="img-responsive" src="/mobile/images/dummy/img_jewelry_1.jpg" alt="">
+                                            </figure>
+                                            <h5>LOUXOR 룩소르 실크 트윌 스카프</h5>
+                                            <small>레드</small>
+                                            <p><strong>&#36;375.00</strong></p>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a class="related-item">
+                                            <figure>
+                                                <img class="img-responsive" src="/mobile/images/dummy/img_jewelry_1.jpg" alt="">
+                                            </figure>
+                                            <h5>LOUXOR 룩소르 실크 트윌 스카프</h5>
+                                            <small>레드</small>
+                                            <p><strong>&#36;375.00</strong></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <a class="related-item">
+                                            <figure>
+                                                <img class="img-responsive" src="/mobile/images/dummy/img_jewelry_1.jpg" alt="">
+                                            </figure>
+                                            <h5>LOUXOR 룩소르 실크 트윌 스카프</h5>
+                                            <small>레드</small>
+                                            <p><strong>&#36;375.00</strong></p>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a class="related-item">
+                                            <figure>
+                                                <img class="img-responsive" src="/mobile/images/dummy/img_jewelry_1.jpg" alt="">
+                                            </figure>
+                                            <h5>LOUXOR 룩소르 실크 트윌 스카프</h5>
+                                            <small>레드</small>
+                                            <p><strong>&#36;375.00</strong></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <a class="related-item">
+                                            <figure>
+                                                <img class="img-responsive" src="/mobile/images/dummy/img_jewelry_1.jpg" alt="">
+                                            </figure>
+                                            <h5>LOUXOR 룩소르 실크 트윌 스카프</h5>
+                                            <small>레드</small>
+                                            <p><strong>&#36;375.00</strong></p>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a class="related-item">
+                                            <figure>
+                                                <img class="img-responsive" src="/mobile/images/dummy/img_jewelry_1.jpg" alt="">
+                                            </figure>
+                                            <h5>LOUXOR 룩소르 실크 트윌 스카프</h5>
+                                            <small>레드</small>
+                                            <p><strong>&#36;375.00</strong></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#related-figures" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                            <span class="sr-only">이전</span>
+                        </a>
+                        <a class="right carousel-control" href="#related-figures" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                            <span class="sr-only">다음</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="">
+                <div class="designer">
+                    <div class="figure">
+                        <figure>
+                            <img class="img-responsive" src="/mobile/images/dummy/img_designer.jpg">
+                            <figcaption>바카라 샘플 텍스트</figcaption>
+                        </figure>
+                    </div>
+                    <div class="details">
+                        아코어(Harcourt) 컬렉션은 1841년 프랑스 루이-필립 왕의 의뢰로 제작되었으며, 지금까지 명성을 이어오고 있다.
+                    </div>
                 </div>
             </div>
         </main>
