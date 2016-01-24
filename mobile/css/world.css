@@ -1,0 +1,60 @@
+.font-gl {
+  font-family: 'Nanum Gothic Light', sans-serif; }
+
+.font-mj, .world .news .list article .category strong, .world .news .list article h4 {
+  font-family: 'Nanum Myeongjo', sans-serif; }
+
+.font {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 12px;
+  background-color: #222; }
+
+.font-lg-1 {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 15px; }
+
+.font-lg-2 {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 14px; }
+
+.font-sm {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 10px; }
+
+.world .news .list article {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #111; }
+  .world .news .list article .category {
+    height: 24px; }
+    .world .news .list article .category img {
+      float: left;
+      height: 24px;
+      margin-right: 10px; }
+    .world .news .list article .category strong {
+      display: inline-block;
+      height: 24px;
+      padding-left: 10px;
+      padding-right: 10px;
+      line-height: 22px;
+      border-top: 1px solid #111;
+      border-bottom: 1px solid #111; }
+  .world .news .list article h4 {
+    font-style: italic;
+    font-weight: bold; }
+  .world .news .list article figure img {
+    margin: 0 auto; }
+  .world .news .list article .details {
+    margin-top: 10px; }
+    .world .news .list article .details p {
+      margin-bottom: 0; }
+  .world .news .list article .more {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    font-size: 12px;
+    color: #111; }
+    .world .news .list article .more .glyphicon {
+      color: #cc071e; }
+
+/*# sourceMappingURL=world.css.map */

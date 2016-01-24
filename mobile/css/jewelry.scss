@@ -129,27 +129,6 @@
 }
 
 .view {
-    .path {
-        .breadcrumb {
-            padding-left: 0;
-            padding-right: 0;
-            margin-bottom: 0;
-            background-color: transparent;
-            > li {
-                color: #111;
-                > a {
-                    color: #111;
-                }
-                &::before {
-                    content: "\003e";
-                    color: #111;
-                }
-                &:nth-of-type(1)::before {
-                    content: "";
-                }
-            }
-        }
-    }
     .carousel {
         .item {
             img {

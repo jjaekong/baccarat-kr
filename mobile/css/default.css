@@ -57,7 +57,7 @@ ul, ol {
     padding-right: 10px; }
 
 #wrapper {
-  padding-top: 80px;
+  margin-top: 80px;
   background-color: #fff; }
 
 #header {
@@ -212,5 +212,20 @@ ul, ol {
         display: inline; }
     #footer > div p {
       margin-bottom: 0; }
+
+.path .breadcrumb {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+  background-color: transparent; }
+  .path .breadcrumb > li {
+    color: #111; }
+    .path .breadcrumb > li > a {
+      color: #111; }
+    .path .breadcrumb > li::before {
+      content: "\003e";
+      color: #111; }
+    .path .breadcrumb > li:nth-of-type(1)::before {
+      content: ""; }
 
 /*# sourceMappingURL=default.css.map */

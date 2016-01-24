@@ -1,3 +1,4 @@
+<a href="#content" class="sr-only">컨텐츠로 바로가기</a>
 <nav id="header">
     <header>
         <h1 class="logo"><a href="#"><img src="/mobile/images/logo.gif" alt="Baccarat"></a></h1>

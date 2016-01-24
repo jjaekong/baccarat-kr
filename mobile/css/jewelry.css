@@ -111,20 +111,6 @@
     -webkit-animation: spin 2s infinite steps(12);
     animation: spin 2s infinite steps(12); }
 
-.view .path .breadcrumb {
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 0;
-  background-color: transparent; }
-  .view .path .breadcrumb > li {
-    color: #111; }
-    .view .path .breadcrumb > li > a {
-      color: #111; }
-    .view .path .breadcrumb > li::before {
-      content: "\003e";
-      color: #111; }
-    .view .path .breadcrumb > li:nth-of-type(1)::before {
-      content: ""; }
 .view .carousel .item img {
   width: 100%; }
 .view .carousel .carousel-control {
