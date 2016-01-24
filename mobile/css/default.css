@@ -27,6 +27,20 @@
  * - 레이아웃 관련: 레이아웃, 헤더, 푸터 등
  * - 기본 스타일: 버튼, 색상, 폰트 등
  */
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 html, body {
   min-width: 320px; }
 
@@ -227,5 +241,15 @@ ul, ol {
       color: #111; }
     .path .breadcrumb > li:nth-of-type(1)::before {
       content: ""; }
+
+.loading {
+  padding: 15px 0;
+  margin: 0;
+  text-align: center; }
+  .loading img {
+    width: 36px;
+    height: 36px;
+    -webkit-animation: spin 2s infinite steps(12);
+    animation: spin 2s infinite steps(12); }
 
 /*# sourceMappingURL=default.css.map */

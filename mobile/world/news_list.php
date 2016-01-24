@@ -20,58 +20,63 @@
                     </form>
                 </div>
                 <div class="list">
-                    <article>
-                        <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
-                        <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
-                        <figure>
-                            <img class="img-responsive" src="/mobile/images/dummy/img_news_1.jpg" alt="">
-                        </figure>
-                        <div class="details">
-                            <p>
-                                바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
-                            </p>
-                        </div>
-                        <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
-                    </article>
-                    <article>
-                        <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
-                        <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
-                        <figure>
-                            <img class="img-responsive" src="/mobile/images/dummy/img_news_2.jpg" alt="">
-                        </figure>
-                        <div class="details">
-                            <p>
-                                바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
-                            </p>
-                        </div>
-                        <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
-                    </article>
-                    <article>
-                        <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
-                        <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
-                        <figure>
-                            <img class="img-responsive" src="/mobile/images/dummy/img_news_1.jpg" alt="">
-                        </figure>
-                        <div class="details">
-                            <p>
-                                바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
-                            </p>
-                        </div>
-                        <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
-                    </article>
-                    <article>
-                        <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
-                        <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
-                        <figure>
-                            <img class="img-responsive" src="/mobile/images/dummy/img_news_2.jpg" alt="">
-                        </figure>
-                        <div class="details">
-                            <p>
-                                바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
-                            </p>
-                        </div>
-                        <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
-                    </article>
+                    <ul>
+                        <li>
+                            <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
+                            <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
+                            <figure>
+                                <img class="img-responsive" src="/mobile/images/dummy/img_news_1.jpg" alt="">
+                            </figure>
+                            <div class="details">
+                                <p>
+                                    바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
+                                </p>
+                            </div>
+                            <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+                        </li>
+                        <li>
+                            <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
+                            <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
+                            <figure>
+                                <img class="img-responsive" src="/mobile/images/dummy/img_news_2.jpg" alt="">
+                            </figure>
+                            <div class="details">
+                                <p>
+                                    바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
+                                </p>
+                            </div>
+                            <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+                        </li>
+                        <li>
+                            <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
+                            <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
+                            <figure>
+                                <img class="img-responsive" src="/mobile/images/dummy/img_news_1.jpg" alt="">
+                            </figure>
+                            <div class="details">
+                                <p>
+                                    바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
+                                </p>
+                            </div>
+                            <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+                        </li>
+                        <li>
+                            <div class="category"><img src="/mobile/images/ico_pencil.gif" aria-hidden="true"><strong>최신 뉴스</strong></div>
+                            <h4>바카라 아시아 최초 메종 서울 남산에 오픈</h4>
+                            <figure>
+                                <img class="img-responsive" src="/mobile/images/dummy/img_news_2.jpg" alt="">
+                            </figure>
+                            <div class="details">
+                                <p>
+                                    바카라의 전설은 독창적 세팅이 돋보이는 메종 바카라의 박물관에서 새로운 전시회로 이어집니다.
+                                </p>
+                            </div>
+                            <a href="#" class="more btn btn-link btn-block">더 보기 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+                        </li>
+                    </ul>
+                    <p class="loading">
+                        <img src="/mobile/images/loading.gif" alt="로딩 중..">
+                    </p>
                 </div>
             </div>
         </main>

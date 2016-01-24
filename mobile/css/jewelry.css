@@ -21,20 +21,6 @@
   font-family: 'Nanum Gothic Light', sans-serif;
   font-size: 10px; }
 
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
 .list .overview {
   height: 160px;
   background-image: url(/mobile/images/img_overview_1.jpg);
@@ -101,15 +87,6 @@
       font-weight: bold;
       font-style: italic;
       color: #cd081f; }
-.list .list .loading {
-  padding: 15px 0;
-  margin: 0;
-  text-align: center; }
-  .list .list .loading img {
-    width: 36px;
-    height: 36px;
-    -webkit-animation: spin 2s infinite steps(12);
-    animation: spin 2s infinite steps(12); }
 
 .view .carousel .item img {
   width: 100%; }
