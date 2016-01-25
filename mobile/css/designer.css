@@ -1,0 +1,73 @@
+.font-gl {
+  font-family: 'Nanum Gothic Light', sans-serif; }
+
+.font-mj, .world .category strong {
+  font-family: 'Nanum Myeongjo', sans-serif; }
+
+.font {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 12px;
+  background-color: #222; }
+
+.font-lg-1 {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 15px; }
+
+.font-lg-2 {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 14px; }
+
+.font-sm {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 10px; }
+
+.world .filter select {
+  padding-left: 0;
+  padding-right: 0; }
+.world .category {
+  height: 24px; }
+  .world .category img {
+    float: left;
+    height: 24px;
+    margin-right: 10px; }
+  .world .category strong {
+    display: inline-block;
+    height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111; }
+.world .designer .list ul {
+  margin-left: -5px;
+  margin-right: -5px; }
+.world .designer .list li {
+  padding-left: 5px;
+  padding-right: 5px; }
+  .world .designer .list li a {
+    color: #111; }
+    .world .designer .list li a figure img {
+      border: 1px solid #ccc;
+      margin: 0 auto; }
+    .world .designer .list li a figure figcaption {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      line-height: 1.2; }
+.world .designer .view {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  .world .designer .view .title {
+    margin-top: 10px;
+    color: #cc071e;
+    font-weight: bold; }
+  .world .designer .view .btn-group {
+    float: right;
+    margin-top: 20px; }
+    .world .designer .view .btn-group .btn {
+      border-radius: 0;
+      border-color: #cc071e;
+      background-color: #cc071e;
+      color: #fff; }
+
+/*# sourceMappingURL=designer.css.map */

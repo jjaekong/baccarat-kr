@@ -1,0 +1,33 @@
+@import 'common';
+
+.help {
+    .list {
+        ul {
+            border: 1px solid #ccc;
+            li {
+                a {
+                    display: block;
+                    height: 35px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    line-height: 33px;
+                    border-bottom: 1px solid #ccc;
+                    background-color: #eee;
+                    color: #111;
+                    font-weight: bold;
+                    background: -webkit-linear-gradient(#fff, #efefef);
+                    background: linear-gradient(#fff, #efefef);
+                    .glyphicon {
+                        float: right;
+                        margin-top: 11px;
+                    }
+                }
+                &:last-child {
+                    a {
+                        border-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
