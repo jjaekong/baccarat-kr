@@ -1,7 +1,7 @@
 .font-gl {
   font-family: 'Nanum Gothic Light', sans-serif; }
 
-.font-mj, .world .category strong, .world .news .list ul li h4 {
+.font-mj, .world .category strong, .world .list ul li h4 {
   font-family: 'Nanum Myeongjo', sans-serif; }
 
 .font {
@@ -38,69 +38,38 @@
     line-height: 22px;
     border-top: 1px solid #111;
     border-bottom: 1px solid #111; }
-.world .news .list ul li {
+.world .list ul li {
   padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #111; }
-  .world .news .list ul li h4 {
+  .world .list ul li h4 {
     font-style: italic;
     font-weight: bold; }
-  .world .news .list ul li figure img {
+  .world .list ul li figure img {
     margin: 0 auto; }
-  .world .news .list ul li .details {
+  .world .list ul li .details {
     margin-top: 10px; }
-    .world .news .list ul li .details p {
+    .world .list ul li .details p {
       margin-bottom: 0; }
-  .world .news .list ul li .more {
+  .world .list ul li .more {
     padding-left: 0;
     padding-right: 0;
     text-align: left;
     font-size: 12px;
     color: #111; }
-    .world .news .list ul li .more .glyphicon {
+    .world .list ul li .more .glyphicon {
       color: #cc071e; }
-.world .news .view {
+.world .view {
   margin-top: 20px;
   margin-bottom: 20px; }
-  .world .news .view .title {
+  .world .view .title {
     margin-top: 20px;
     color: #cc071e;
     font-weight: bold; }
-  .world .news .view .btn-group {
+  .world .view .btn-group {
     float: right;
     margin-top: 20px; }
-    .world .news .view .btn-group .btn {
-      border-radius: 0;
-      border-color: #cc071e;
-      background-color: #cc071e;
-      color: #fff; }
-.world .knowhow .list ul {
-  margin-left: -5px;
-  margin-right: -5px; }
-.world .knowhow .list li {
-  padding-left: 5px;
-  padding-right: 5px; }
-  .world .knowhow .list li a {
-    color: #111; }
-    .world .knowhow .list li a figure img {
-      border: 1px solid #ccc;
-      margin: 0 auto; }
-    .world .knowhow .list li a figure figcaption {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      text-align: center;
-      line-height: 1.2; }
-.world .knowhow .view {
-  margin-top: 10px;
-  margin-bottom: 20px; }
-  .world .knowhow .view .title {
-    margin-top: 10px;
-    color: #cc071e;
-    font-weight: bold; }
-  .world .knowhow .view .btn-group {
-    float: right;
-    margin-top: 20px; }
-    .world .knowhow .view .btn-group .btn {
+    .world .view .btn-group .btn {
       border-radius: 0;
       border-color: #cc071e;
       background-color: #cc071e;

@@ -25,107 +25,58 @@
             @extend .font-mj;
         }
     }
-    .news {
-        .list {
-            ul {
-                li {
-                    padding-top: 20px;
-                    padding-bottom: 10px;
-                    border-bottom: 1px solid #111;
-                    
-                    h4 {
-                        @extend .font-mj;
-                        font-style: italic;
-                        font-weight: bold;
-                    }
-                    figure {
-                        img {
-                            margin: 0 auto;
-                        }
-                    }
-                    .details {
-                        margin-top: 10px;
-                        p {
-                            margin-bottom: 0;
-                        }
-                    }
-                    .more {
-                        padding-left: 0;
-                        padding-right: 0;
-                        text-align: left;
-                        font-size: 12px;
-                        color: #111;
-                        .glyphicon {
-                            color: $main-color;
-                        }
+    .list {
+        ul {
+            li {
+                padding-top: 20px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #111;
+
+                h4 {
+                    @extend .font-mj;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+                figure {
+                    img {
+                        margin: 0 auto;
                     }
                 }
-            }
-        }
-        .view {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            .title {
-                margin-top: 20px;
-                color: $main-color;
-                font-weight: bold;
-            }
-            .btn-group {
-                float: right;
-                margin-top: 20px;
-                .btn {
-                    border-radius: 0;
-                    border-color: $main-color;
-                    background-color: $main-color;
-                    color: #fff;
+                .details {
+                    margin-top: 10px;
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+                .more {
+                    padding-left: 0;
+                    padding-right: 0;
+                    text-align: left;
+                    font-size: 12px;
+                    color: #111;
+                    .glyphicon {
+                        color: $main-color;
+                    }
                 }
             }
         }
     }
-    
-    .knowhow {
-        .list {
-            ul {
-                margin-left: -5px;
-                margin-right: -5px;
-            }
-            li {
-                padding-left: 5px;
-                padding-right: 5px;
-                a {
-                    color: #111;
-                    figure {
-                        img {
-                            border: 1px solid #ccc;
-                            margin: 0 auto;
-                        }
-                        figcaption {
-                            padding-top: 10px;
-                            padding-bottom: 10px;
-                            text-align: center;
-                            line-height: 1.2;
-                        }
-                    }
-                }
-            }
+    .view {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .title {
+            margin-top: 20px;
+            color: $main-color;
+            font-weight: bold;
         }
-        .view {
-            margin-top: 10px;
-            margin-bottom: 20px;
-            .title {
-                margin-top: 10px;
-                color: $main-color;
-                font-weight: bold;
-            }
-            .btn-group {
-                float: right;
-                margin-top: 20px;
-                .btn {
-                    border-radius: 0;
-                    border-color: $main-color;
-                    background-color: $main-color;
-                    color: #fff;
-                }
+        .btn-group {
+            float: right;
+            margin-top: 20px;
+            .btn {
+                border-radius: 0;
+                border-color: $main-color;
+                background-color: $main-color;
+                color: #fff;
             }
         }
     }

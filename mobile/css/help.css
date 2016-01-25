@@ -21,9 +21,12 @@
   font-family: 'Nanum Gothic Light', sans-serif;
   font-size: 10px; }
 
-.help .list ul {
+.help .filter select {
+  padding-left: 0;
+  padding-right: 0; }
+.help .help-menu ul {
   border: 1px solid #ccc; }
-  .help .list ul li a {
+  .help .help-menu ul li a {
     display: block;
     height: 35px;
     padding-left: 15px;
@@ -35,10 +38,10 @@
     font-weight: bold;
     background: -webkit-linear-gradient(#fff, #efefef);
     background: linear-gradient(#fff, #efefef); }
-    .help .list ul li a .glyphicon {
+    .help .help-menu ul li a .glyphicon {
       float: right;
       margin-top: 11px; }
-  .help .list ul li:last-child a {
+  .help .help-menu ul li:last-child a {
     border-bottom: 0; }
 
 /*# sourceMappingURL=help.css.map */

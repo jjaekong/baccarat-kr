@@ -4,7 +4,7 @@
 <body class="world">
     <div id="wrapper">
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-        <main id="content" class="news">
+        <main id="content">
             <div class="container">
                 <div class="path">
                     <ol class="breadcrumb">

@@ -21,36 +21,36 @@
   font-family: 'Nanum Gothic Light', sans-serif;
   font-size: 10px; }
 
-.designer .list ul {
+.knowhow .list ul {
   margin-left: -5px;
   margin-right: -5px; }
-.designer .list li {
+.knowhow .list li {
   padding-left: 5px;
   padding-right: 5px; }
-  .designer .list li a {
+  .knowhow .list li a {
     color: #111; }
-    .designer .list li a figure img {
+    .knowhow .list li a figure img {
       border: 1px solid #ccc;
       margin: 0 auto; }
-    .designer .list li a figure figcaption {
+    .knowhow .list li a figure figcaption {
       padding-top: 10px;
       padding-bottom: 10px;
       text-align: center;
       line-height: 1.2; }
-.designer .view {
+.knowhow .view {
   margin-top: 10px;
   margin-bottom: 20px; }
-  .designer .view .title {
+  .knowhow .view .title {
     margin-top: 10px;
     color: #cc071e;
     font-weight: bold; }
-  .designer .view .btn-group {
+  .knowhow .view .btn-group {
     float: right;
     margin-top: 20px; }
-    .designer .view .btn-group .btn {
+    .knowhow .view .btn-group .btn {
       border-radius: 0;
       border-color: #cc071e;
       background-color: #cc071e;
       color: #fff; }
 
-/*# sourceMappingURL=designer.css.map */
+/*# sourceMappingURL=knowhow.css.map */

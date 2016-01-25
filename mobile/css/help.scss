@@ -1,7 +1,13 @@
 @import 'common';
 
 .help {
-    .list {
+    .filter {
+        select {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .help-menu {
         ul {
             border: 1px solid #ccc;
             li {

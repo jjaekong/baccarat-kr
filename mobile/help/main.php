@@ -12,7 +12,7 @@
                         <li class="active">서비스</li>
                     </ol>
                 </div>
-                <div class="list">
+                <div class="help-menu">
                     <ul>
                         <li><a href="#">계정 설정 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></li>
                         <li><a href="#">자주 묻는 질문 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></li>

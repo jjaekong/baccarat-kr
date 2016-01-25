@@ -1,10 +1,10 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/mobile/css/world.css" rel="stylesheet">
+<link href="/mobile/css/knowhow.css" rel="stylesheet">
 </head>
-<body class="world">
+<body class="knowhow">
     <div id="wrapper">
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-        <main id="content" class="knowhow">
+        <main id="content">
             <div class="container">
                 <div class="path">
                     <ol class="breadcrumb">

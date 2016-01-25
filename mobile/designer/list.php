@@ -1,10 +1,10 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/mobile/css/world.css" rel="stylesheet">
+<link href="/mobile/css/designer.css" rel="stylesheet">
 </head>
-<body class="world">
+<body class="designer">
     <div id="wrapper">
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-        <main id="content" class="knowhow">
+        <main id="content">
             <div class="container">
                 <div class="path">
                     <ol class="breadcrumb">
@@ -17,33 +17,16 @@
                         <li class="col-xs-6">
                             <a href="#">
                                 <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_1.jpg">
-                                    <figcaption>유서깊은 향수 그리고 향수병, ROUGE 540(루즈 540)</figcaption>
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_01.jpg">
+                                    <figcaption>이브 사비넬과 질 로제</figcaption>
                                 </figure>
                             </a>
                         </li>
                         <li class="col-xs-6">
                             <a href="#">
                                 <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_2.jpg">
-                                    <figcaption>유서깊은 향수 그리고 향수병</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="clearfix"></li>
-                        <li class="col-xs-6">
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_3.jpg">
-                                    <figcaption>유서깊은 향수 그리고 향수병</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="col-xs-6">
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_4.jpg">
-                                    <figcaption>유서깊은 향수 그리고 향수병, ROUGE 540(루즈 540)</figcaption>
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_02.jpg">
+                                    <figcaption>모리타 야스미치</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -51,7 +34,24 @@
                         <li class="col-xs-6">
                             <a href="#">
                                 <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_5.jpg">
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_03.jpg">
+                                    <figcaption>필립 스탁</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_04.jpg">
+                                    <figcaption>마티아스</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="clearfix"></li>
+                        <li class="col-xs-6">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_01.jpg">
                                     <figcaption>유서깊은 향수 그리고 향수병, ROUGE 540(루즈 540)</figcaption>
                                 </figure>
                             </a>
@@ -59,7 +59,7 @@
                         <li class="col-xs-6">
                             <a href="#">
                                 <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_6.jpg">
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_02.jpg">
                                     <figcaption>유서깊은 향수 그리고 향수병, ROUGE 540(루즈 540)</figcaption>
                                 </figure>
                             </a>
@@ -68,7 +68,7 @@
                         <li class="col-xs-6">
                             <a href="#">
                                 <figure>
-                                    <img class="img-responsive" src="/mobile/images/dummy/img_knowhow_1.jpg">
+                                    <img class="img-responsive" src="/mobile/images/dummy/img_designer_item_03.jpg">
                                     <figcaption>유서깊은 향수 그리고 향수병, ROUGE 540(루즈 540)</figcaption>
                                 </figure>
                             </a>
