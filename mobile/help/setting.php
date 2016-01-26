@@ -14,17 +14,18 @@
                     </ol>
                 </div>
                 <div class="filter">
-                    <form action="#" method="post">
-                        <select name="" class="form-control input-sm">
-                            <option value="">계정 설정</option>
-                            <option value="">자주 묻는 질문</option>
-                            <option value="">고객관리 및 정보제공</option>
-                            <option value="">수선</option>>
-                            <option value="">내 계정</option>>
-                            <option value="">개인정보 취급방침</option>
-                            <option value="">약관</option>
-                        </select>
-                    </form>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-block btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            계정 설정 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </main>

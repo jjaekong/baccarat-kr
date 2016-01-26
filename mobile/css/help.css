@@ -24,6 +24,18 @@
 .help .filter select {
   padding-left: 0;
   padding-right: 0; }
+.help .filter .btn-group {
+  width: 100%; }
+  .help .filter .btn-group > .btn {
+    height: 30px;
+    padding: 0 10px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px; }
+    .help .filter .btn-group > .btn .caret {
+      float: right;
+      margin-top: 6px; }
 .help .help-menu ul {
   border: 1px solid #ccc; }
   .help .help-menu ul li a {

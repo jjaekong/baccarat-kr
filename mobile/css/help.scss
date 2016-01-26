@@ -6,6 +6,21 @@
             padding-left: 0;
             padding-right: 0;
         }
+        .btn-group {
+            width: 100%;
+            > .btn {
+                height: 30px;
+                padding: 0 10px;
+                text-align: left;
+                font-size: 12px;
+                font-weight: bold;
+                border-radius: 2px;
+                .caret {
+                    float: right;
+                    margin-top: 6px;
+                }
+            }
+        }
     }
     .help-menu {
         ul {
