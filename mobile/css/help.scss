@@ -20,6 +20,16 @@
                     margin-top: 6px;
                 }
             }
+            > .dropdown-menu {
+                width: 100%;
+                margin-top: -1px;
+                border-radius: 0;
+                a {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: 12px;
+                }
+            }
         }
     }
     .help-menu {
@@ -50,5 +60,13 @@
                 }
             }
         }
+    }
+    .details {
+        .nav-tabs {
+            
+        }
+    }
+    .setting {
+        
     }
 }

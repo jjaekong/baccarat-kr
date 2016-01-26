@@ -19,12 +19,26 @@
                             계정 설정 <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">계정 설정</a></li>
+                            <li><a href="#">자주 묻는 질문</a></li>
+                            <li><a href="#">고객관리 및 정보제공</a></li>
+                            <li><a href="#">수선</a></li>
+                            <li><a href="#">내 계정</a></li>
+                            <li><a href="#">개인정보 취급방침</a></li>
+                            <li><a href="#">약관</a></li>
                         </ul>
+                    </div>
+                </div>
+                <div class="details">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                        <li role="presentation" class="active"><a href="#profile" aria-controls="home" role="tab" data-toggle="tab">profile</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">1</div>
+                        <div role="tabpanel" class="tab-pane" id="profile">2</div>
+                        <div role="tabpanel" class="tab-pane" id="messages">3</div>
+                        <div role="tabpanel" class="tab-pane" id="settings">4</div>
                     </div>
                 </div>
             </div>

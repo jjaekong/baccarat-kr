@@ -36,6 +36,14 @@
     .help .filter .btn-group > .btn .caret {
       float: right;
       margin-top: 6px; }
+  .help .filter .btn-group > .dropdown-menu {
+    width: 100%;
+    margin-top: -1px;
+    border-radius: 0; }
+    .help .filter .btn-group > .dropdown-menu a {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 12px; }
 .help .help-menu ul {
   border: 1px solid #ccc; }
   .help .help-menu ul li a {
