@@ -63,7 +63,99 @@
     }
     .details {
         .nav-tabs {
-            
+            margin-left: -10px;
+            margin-right: -10px;
+            border-bottom: 0;
+            li {
+                color: #ccc;
+                &::before {
+                    content: '|';
+                }
+                &:first-child::before {
+                    & {
+                    content: '';
+                    }
+                }
+                a {
+                    display: inline-block; 
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border: 0;
+                    background-color: transparent;
+                    color: #999;
+                }
+                &.active {
+                    a {
+                        border: 0;
+                        color: #1b82ab;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            margin: 10px 0 20px 0;
+            .tab-pane {
+                > h3 {
+                    margin: 0 0 10px 0;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                > div {
+                    margin-bottom: 20px;
+                    h4 {
+                        margin: 0 0 5px 0;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    ul {
+                        margin-bottom: 10px;
+                        li::before {
+                            content: '- ';
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .notify {
+        .row {
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                > div {
+                    position: relative;
+                    min-height: 120px;
+                    padding: 15px;
+                    background-color: #eee;
+                    @extend .font-mj;
+                    > h5 {
+                        margin-top: 0;
+                        background-color: transparent;
+                        color: #1b82ab;
+                    }
+                    > hr {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 4px;
+                        height: 25px;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #1b82ab;
+                    }
+                    > p {
+                        margin-bottom: 0;
+                        > a {
+                            color: #1b82ab;
+                        }
+                    }
+                }
+            }
         }
     }
     .setting {

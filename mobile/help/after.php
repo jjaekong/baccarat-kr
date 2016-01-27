@@ -4,7 +4,7 @@
 <body class="help">
     <div id="wrapper">
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-        <main id="content" class="customer-manage">
+        <main id="content" class="after-service">
             <div class="container">
                 <div class="path">
                     <ol class="breadcrumb">
@@ -16,23 +16,28 @@
                 <div class="filter">
                     <div class="btn-group">
                         <button type="button" class="btn btn-block btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            고객관리 및 정보제공 <span class="caret"></span>
+                            AFTER-SALE SERVICE <span class="caret"></span>
                         </button>
                         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/help/_menu.php'); ?>
                     </div>
                 </div>
                 <div class="details">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">주얼리</a></li>
-                        <li role="presentation"><a href="#profile" aria-controls="home" role="tab" data-toggle="tab">바 및 식기</a></li>
-                        <li role="presentation"><a href="#profile" aria-controls="home" role="tab" data-toggle="tab">장식품</a></li>
-                        <li role="presentation"><a href="#profile" aria-controls="home" role="tab" data-toggle="tab">조명</a></li>
+                        <li role="presentation" class="active"><a href="#after-service-1" aria-controls="after-service-1" role="tab" data-toggle="tab">수선</a></li>
                     </ul>
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="home">1</div>
-                        <div role="tabpanel" class="tab-pane" id="profile">2</div>
-                        <div role="tabpanel" class="tab-pane" id="messages">3</div>
-                        <div role="tabpanel" class="tab-pane" id="settings">4</div>
+                        <div role="tabpanel" class="tab-pane active" id="after-service-1">
+                            <h3>수선</h3>
+                            <div>
+                                <p>가장 일반적인 수선은 다음과 같습니다.</p>
+                                <ul>
+                                    <li>스크래치 제거</li>
+                                    <li>글라스, 고블릿, 화병, 장식품 등의 이가 나간 모서리 부분 수선</li>
+                                    <li>광택을 되찾기 위한 폴리싱 작업</li>
+                                </ul>
+                                <p>바카라는 수선 서비스를 제공하지 않습니다.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="notify">
