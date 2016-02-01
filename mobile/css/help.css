@@ -129,5 +129,51 @@
         margin-bottom: 0; }
         .help .notify .row > div > div > p > a {
           color: #1b82ab; }
+.help .faq .details .tab-content .tab-pane > div h4 {
+  color: #1b82a8;
+  font-weight: normal; }
+.help .setting .details .tab-content .tab-pane form {
+  border: 1px solid #9a9a9a; }
+.help .setting .details .tab-content .tab-pane legend {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  background-color: #ededed;
+  font-size: 14px;
+  line-height: 24px; }
+.help .setting .details .tab-content .tab-pane .form-group {
+  padding-left: 10px;
+  padding-right: 10px; }
+  .help .setting .details .tab-content .tab-pane .form-group.required > label::after {
+    content: '*';
+    color: #cc071e;
+    font-weight: bold; }
+  .help .setting .details .tab-content .tab-pane .form-group > .control-label {
+    margin-bottom: 0; }
+  .help .setting .details .tab-content .tab-pane .form-group > .radio {
+    margin-top: 5px; }
+    .help .setting .details .tab-content .tab-pane .form-group > .radio > label {
+      margin-right: 10px; }
+  .help .setting .details .tab-content .tab-pane .form-group > .error-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #cc071e; }
+.help .setting .details .tab-content .tab-pane .check {
+  padding-left: 10px;
+  padding-right: 10px; }
+  .help .setting .details .tab-content .tab-pane .check label {
+    font-weight: normal; }
+.help .setting .details .tab-content .tab-pane .btn-area {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .help .setting .details .tab-content .tab-pane .btn-area p {
+    text-align: center; }
+    .help .setting .details .tab-content .tab-pane .btn-area p .btn {
+      background: -webkit-linear-gradient(#4f5861, #393e44);
+      background: linear-gradient(#4f5861, #393e44);
+      color: #ccc;
+      border: 0;
+      min-width: 60px; }
 
 /*# sourceMappingURL=help.css.map */
