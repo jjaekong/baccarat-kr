@@ -1,0 +1,142 @@
+@charset "UTF-8";
+.font-gl {
+  font-family: 'Nanum Gothic Light', sans-serif; }
+
+.font-mj {
+  font-family: 'Nanum Myeongjo', sans-serif; }
+
+.font {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 12px;
+  background-color: #222; }
+
+.font-lg-1 {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 15px; }
+
+.font-lg-2 {
+  font-family: 'Nanum Myeongjo', sans-serif;
+  font-size: 14px; }
+
+.font-sm {
+  font-family: 'Nanum Gothic Light', sans-serif;
+  font-size: 10px; }
+
+.store .overview img {
+  margin: 0 auto; }
+.store .search {
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  margin-top: 10px;
+  background-color: #f0f0f0; }
+  .store .search h4 {
+    margin-top: 0;
+    color: #999;
+    font-size: 12px; }
+  .store .search .view-type {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a1a1a1; }
+    .store .search .view-type ul {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 1px solid #ccc;
+      background-color: #fff; }
+      .store .search .view-type ul li a {
+        display: block;
+        padding-left: 10px;
+        color: #999;
+        line-height: 22px; }
+      .store .search .view-type ul li.active a .glyphicon {
+        color: #3b82a6; }
+  .store .search .location {
+    margin-top: 15px; }
+    .store .search .location .or {
+      margin-top: 10px;
+      text-align: center; }
+    .store .search .location .btn-area {
+      text-align: center; }
+    .store .search .location .btn {
+      background: -webkit-linear-gradient(#4f5861, #393e44);
+      background: linear-gradient(#4f5861, #393e44);
+      color: #ccc;
+      border: 0;
+      min-width: 60px; }
+.store .category .form-group, .store .store-type .form-group {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #d7d7d7;
+  margin-bottom: 0;
+  background-color: #fff; }
+  .store .category .form-group .checkbox, .store .store-type .form-group .checkbox {
+    color: #999; }
+.store .store-type {
+  margin-top: 10px; }
+.store .result-map {
+  margin-top: 20px; }
+  .store .result-map header h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold; }
+  .store .result-map header small {
+    font-size: 12px; }
+  .store .result-map > .map {
+    margin-top: 10px;
+    min-height: 150px;
+    background-color: #eee; }
+.store .result-list {
+  margin-top: 20px; }
+  .store .result-list header h3 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold; }
+  .store .result-list .item {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2); }
+    .store .result-list .item h4 {
+      margin-top: 5px;
+      margin-bottom: 15px;
+      font-size: 14px; }
+      .store .result-list .item h4 i {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        text-align: center;
+        border: 1px solid #cc071e;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #999; }
+    .store .result-list .item .flag {
+      position: absolute;
+      top: 12px;
+      right: 0;
+      width: 80px; }
+    .store .result-list .item figure img {
+      border: 1px solid #dcdcdc; }
+    .store .result-list .item .details address {
+      margin-bottom: 0; }
+    .store .result-list .item .details .category {
+      margin-bottom: 20px; }
+      .store .result-list .item .details .category li {
+        display: inline; }
+        .store .result-list .item .details .category li::before {
+          padding-right: 3px;
+          content: '-'; }
+        .store .result-list .item .details .category li:first-child::before {
+          padding-right: 0;
+          content: ''; }
+    .store .result-list .item .menu li {
+      display: inline; }
+      .store .result-list .item .menu li::before {
+        padding-right: 3px;
+        content: '•'; }
+      .store .result-list .item .menu li:first-child::before {
+        padding-right: 0;
+        content: ''; }
+
+/*# sourceMappingURL=store.css.map */

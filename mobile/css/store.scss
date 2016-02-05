@@ -1,0 +1,173 @@
+@import 'common';
+
+.store {
+    .overview {
+        img {
+            margin: 0 auto;
+        }
+    }
+    .search {
+        padding: 10px;
+        border: 1px solid #d1d1d1;
+        margin-top: 10px;
+        background-color: #f0f0f0;
+        h4 {
+            margin-top: 0;
+            color: #999;
+            font-size: 12px;
+        }
+        .view-type {
+            padding-bottom: 15px;
+            border-bottom: 1px solid #a1a1a1;
+            ul {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                li {
+                    a {
+                        display: block;
+                        padding-left: 10px;
+                        color: #999;
+                        line-height: 22px;
+                    }
+                    &.active {
+                        a {
+                            .glyphicon {
+                                color: #3b82a6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .location {
+            margin-top: 15px;
+            .or {
+                margin-top: 10px;
+                text-align: center;
+            }
+            .btn-area {
+                text-align: center;
+            }
+            .btn {
+                background: -webkit-linear-gradient(#4f5861, #393e44);
+                background: linear-gradient(#4f5861, #393e44);
+                color: #ccc;
+                border: 0;
+                min-width: 60px;
+            }
+        }
+    }
+    .category, .store-type {
+        .form-group {
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid #d7d7d7;
+            margin-bottom: 0;
+            background-color: #fff;
+            .checkbox {
+                color: #999;
+            }
+        }
+    }
+    .store-type {
+        margin-top: 10px;
+    }
+    .result-map {
+        margin-top: 20px;
+        header {
+            h3 {
+                margin-top: 0;
+                margin-bottom: 5px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            small {
+                font-size: 12px;
+            }
+        }
+        > .map {
+            margin-top: 10px;
+            min-height: 150px;
+            background-color: #eee;
+        }
+    }
+    .result-list {
+        margin-top: 20px;
+        header {
+            h3 {
+                margin-top: 0;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        .item {
+            position: relative;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            box-shadow: inset 0 0 1px rgba(0, 0, 0, .2);
+            h4 {
+                margin-top: 5px;
+                margin-bottom: 15px;
+                font-size: 14px;
+                i {
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;
+                    text-align: center;
+                    border: 1px solid $main-color;
+                    font-style: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #999;
+                }
+            }
+            .flag {
+                position: absolute;
+                top: 12px;
+                right: 0;
+                width: 80px;
+            }
+            figure {
+                img {
+                    border: 1px solid #dcdcdc;
+                }
+            }
+            .details {
+                address {
+                    margin-bottom: 0;
+                }
+                .category {
+                    margin-bottom: 20px;
+                    li {
+                        display: inline;
+                        &::before {
+                            padding-right: 3px;
+                            content: '-';
+                        }
+                        &:first-child::before {
+                            padding-right: 0;
+                            content: '';
+                        }
+                    }
+                }
+            }
+            .menu {
+                li {
+                    display: inline;
+                    &::before {
+                        padding-right: 3px;
+                        content: '•';
+                    }
+                    &:first-child::before {
+                        padding-right: 0;
+                        content: '';
+                    }
+                }
+            }
+        }
+    }
+}
