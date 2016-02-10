@@ -17,7 +17,7 @@
                         <img class="img-responsive" src="/mobile/images/img_overview_store.jpg" alt="">
                     </figure>
                 </div>
-                <section>
+                <section class="details">
                     <header>
                         <h3>메종 바카라 서울</h3>
                         <ul>
@@ -31,22 +31,71 @@
                     <div class="row">
                         <div class="col-xs-6">
                             <div class="address">
-                                <dl>
-                                    <dt>주소</dt>
-                                    <dd></dd>
-                                </dl>
+                                <h4>주소</h4>
+                                <address>서울시 용산구 소월로 70</address>
+                                <p>
+                                    <a href="#">Calculate your itinerary</a>
+                                </p>
+                                <p>
+                                    <a href="#">Receive our contact details</a>
+                                </p>
                             </div>
                         </div>
                         <div class="col-xs-6">
                             <div class="contact">
-                                <dl>
-                                    <dt>연락처</dt>
-                                    <dd></dd>
-                                </dl>
+                                <h4>연락처</h4>
+                                <p>
+                                    <a href="tel:02-3448-3778">Tel. 02-3448-3778</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="business">
+                        <h4>영업시간</h4>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>월요일</dt>
+                                    <dd>14:00-18:30</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>화요일</dt>
+                                    <dd>10:00-19:00</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>수요일</dt>
+                                    <dd>10:00-19:00</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>목요일</dt>
+                                    <dd>10:00-19:00</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>금요일</dt>
+                                    <dd>10:00-19:00</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>토요일</dt>
+                                    <dd>10:00-19:00</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-3">
+                                <dl>
+                                    <dt>일요일</dt>
+                                    <dd>Closed</dd>
+                                </dl>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
